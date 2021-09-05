@@ -8,7 +8,7 @@ const package = require('./package.json')
 const isProduction =
   process.argv.indexOf('-p') >= 0 || process.env.NODE_ENV === 'production'
 const sourcePath = path.join(__dirname, './src')
-const outPath = path.join(__dirname, './dist')
+const outPath = path.join(__dirname, './docs')
 
 module.exports = {
   context: sourcePath,
